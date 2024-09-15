@@ -1,4 +1,141 @@
+* {
+    background-color: wheat;
+    font-family: 'Poppins', sans-serif;
+}
+
 img {
     width: 50%;
     height: auto;
+}
+
+.intro-msg {
+    font-size: 50px;
+    color: rgb(0, 149, 255);
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    padding: auto;
+    border: px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.index-home {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}	
+
+.choices {
+    justify-content: center;
+    align-items: center;
+    width: 250px;               
+    padding: 10px;              
+    font-size: 16px;            
+    border: 2px solid #333;    
+    border-radius: 8px;       
+    background-color: #f4f4f4; 
+    color: #333;                
+    cursor: pointer;            
+    appearance: none;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 80%;
+    border: 4px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+}
+
+.introduction {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 204, 255, 0.4);
+    border: #333;
+    border-radius: 3000px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.tittle-about {
+    font-size: 30px;
+    color: rgb(0, 149, 255);
+    font-weight: bold;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+    padding: auto;
+    border: px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.choices-about {
+    justify-content: center;
+    align-items: center;
+    width: 250px;               
+    padding: 10px;              
+    font-size: 16px;            
+    border: 2px solid #00eaff;    
+    border-radius: 8px;       
+    background-color: #b5b1b1; 
+    color: #000000;                
+    cursor: pointer;            
+    appearance: none;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 204, 255, 0.4);
+    border: #333;
+    border-radius: 3000px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.university {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: #333;
+    border-radius: 3000px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+
 }
