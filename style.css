@@ -139,3 +139,35 @@ img {
     margin: 20px;
 
 }
+.rodapé {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.sections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    border: #333;
+    border-radius: 3000px;
+    display: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.choices-about{
+    margin-left: 625px;
+}
+.list {
+    margin-left: 10px;
+    margin-right: 10px;
+}
